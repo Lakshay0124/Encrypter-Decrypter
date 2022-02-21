@@ -1,9 +1,9 @@
 To install it just use this command --- 
 
 
-git clone https://github.com/Lakshay0124/Encrypter-Decrypter
+```git clone https://github.com/Lakshay0124/Encrypter-Decrypter
 cd Encrypter-Decrypter/
 clang -o encryption encryption.c -lcs50
-./encryption
+./encryption```
 
-Note-You need to install cs50.h library to run it 
+Note-You need to install cs50.h library to run it
