@@ -17,9 +17,9 @@ int encrypter(int option)
         int pass = get_int("What number key you want to use to encrypt the message: ");
         for (int i = 0; i < strlen(message); i++)
         {
-            int b = message[i] - pass;
-            char f = (char)b;
-            printf("%c", f);
+            int b = message[i] + pass;
+            char f = (char) b ;
+            printf("%c",f);
         }
         printf("\n");
     }
@@ -31,9 +31,9 @@ int encrypter(int option)
 
         for (int i = 0; i < strlen(message); i++)
         {
-            int c = message[i] + pass1;
-            char k = (char)c;
-            printf("%c", k);
+            int c = message[i] - pass1;
+            char k = (char) c ;
+            printf("%c",k);
         }
         printf("\n");
     }
